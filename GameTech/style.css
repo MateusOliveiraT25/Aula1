@@ -81,3 +81,21 @@ height: 100%;
     border: 1px solid #19a974;
     
     }
+<style>
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .linkmenu {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .linkmenu:hover {
+        text-decoration: underline;
+    }
+</style>
