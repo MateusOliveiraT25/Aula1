@@ -7,19 +7,26 @@ const lamp = document.getElementById( 'lamp');
 function isLampBroken(){
     return lamp.src.indexOf ('LampadaQuebrada')> -1
 }
-//funcao lig
-function lampOn (){
-    if (!isLampBroken()){
-    lamp.src ="./img/lampadaLigada.jpg";
-}}
-//funcao desl
-function lampOff (){
-    if (!isLampBroken()){
-    lamp.src ="./img/lampadaDesligada.jpg";
-}}
 // funcao queb
 function lampBroken (){
     lamp.src ="./img/lampadaQuebrada.jpg";
+    // Referência ao elemento de sobreposição escura
+const darkOverlay = document.getElementById('darkOverlay');
+
+function lampOn() {
+    if (!isLampBroken()) {
+        lamp.src = "./img/lampadaLigada.jpg";
+        darkOverlay.style.display = 'none'; // Ocultar a sobreposição escura
+    }
+}
+
+function lampOff() {
+    if (!isLampBroken()) {
+        lamp.src = "./img/lampadaDesligada.jpg";
+        darkOverlay.style.display = 'block'; // Mostrar a sobreposição escura
+    }
+}
+
 }
 turnOn.addEventListener( 'click', lampOn);
 turnOff.addEventListener( 'click', lampOff);
