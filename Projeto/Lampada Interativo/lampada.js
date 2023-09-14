@@ -7,7 +7,10 @@ const titulo = document.getElementById('titulo');
 
 // Referência ao botão "Reiniciar"
 const resetButton = document.getElementById('reset');
-
+resetButton.addEventListener('click', () => {
+    // Recarrega a página
+    location.reload();
+});
 // Variável para rastrear o número de cliques
 let clickCount = 0;
 
