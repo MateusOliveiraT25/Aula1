@@ -57,7 +57,8 @@ resetButton.addEventListener('click', () => {
     resetButton.style.display = 'none'; // Oculta o botão "Reiniciar" novamente após ser clicado
 });
 
-// Event listener para o botão de alternância
+// Adiciona um ouvinte de evento ao botão de alternância (toggleButton) que responde ao evento de clique,
+// chamando a função toggleLamp quando o botão é clicado.
 toggleButton.addEventListener('click', toggleLamp);
 
 // Verifica se a lâmpada está quebrada verificando se o atributo src da imagem contém a string "lampadaQuebrada.jpg"
