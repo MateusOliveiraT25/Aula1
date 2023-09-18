@@ -18,10 +18,9 @@ let clickCount = 0;
 const clickLimitToBreak = 7;
 
 // Função para ligar/desligar a lâmpada
-function toggleLamp() {
+function toggleLamp() { // Verifica se a lâmpada está quebrada
     if (isLampBroken()) {
         // Se a lâmpada estiver quebrada, não faz nada
-     
         return;
     }
 
