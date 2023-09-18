@@ -1,27 +1,26 @@
-Título do Projeto: Controle Interativo de Lâmpada
+Relatório do Projeto: Controle Interativo de Lâmpada
 
-Descrição: Este projeto é uma página da web interativa que simula o controle de uma lâmpada. Os principais elementos da página incluem uma imagem de uma lâmpada, um botão de alternância para ligar/desligar a lâmpada e um título "Interativo". O objetivo é permitir que os usuários cliquem no botão para controlar o estado da lâmpada.
+Este é um relatório simples que descreve as principais funcionalidades do projeto de Controle Interativo de Lâmpada, bem como os desafios enfrentados durante o desenvolvimento.
 
-Funcionalidade:
+Descrição do Projeto:
 
-Controle da Lâmpada: O botão de alternância "Ligar | Desligar" permite aos usuários alternar entre ligar e desligar a lâmpada. A lâmpada começa desligada por padrão.
+O projeto de Controle Interativo de Lâmpada é uma aplicação web que permite aos usuários interagirem com uma lâmpada virtual. A principal funcionalidade do projeto é permitir que os usuários liguem e desliguem a lâmpada clicando em um botão. Além disso, o projeto também inclui a funcionalidade de quebrar a lâmpada após um número específico de cliques.
 
-Contador de Cliques: Um contador exibe o número de cliques realizados no botão de alternância. Cada clique no botão aumenta o contador em 1.
+Funcionalidades Principais:
 
-Quebra da Lâmpada: Após atingir um limite predefinido de cliques (configurado para 7 cliques no código JavaScript), a lâmpada quebra, substituindo sua imagem por uma imagem de lâmpada quebrada. Além disso, o fundo da página fica escuro e o botão de alternância e o título "Interativo" são ocultados.
+1. Ligar/Desligar a Lâmpada:A principal funcionalidade do projeto é a capacidade de ligar e desligar a lâmpada virtual clicando em um botão "Ligar | Desligar". Quando a lâmpada está ligada, a imagem da lâmpada muda para uma lâmpada acesa, e quando desligada, a imagem muda para uma lâmpada apagada.
 
-Tecnologias Utilizadas:
+2. Quebrar a Lâmpada: Após um número específico de cliques, a lâmpada pode ser quebrada. Quando isso acontece, a imagem da lâmpada é substituída por uma lâmpada quebrada, o fundo da página fica escuro, o botão de ligar/desligar é ocultado e é exibido um botão "Reiniciar" para restaurar a lâmpada ao seu estado inicial.
 
-HTML: Para criar a estrutura da página, incluindo a imagem da lâmpada, o botão de alternância e o contador de cliques.
-CSS: Para aplicar estilos à página, incluindo o escurecimento do fundo.
-JavaScript: Para adicionar interatividade à página, controlando o estado da lâmpada, atualizando o contador de cliques e detectando quando a lâmpada deve quebrar.
-Bibliotecas Utilizadas:
+Desafios Enfrentados:
 
-Bootstrap: Uma biblioteca de estilo CSS que fornece estilos prontos para uso.
-Objetivo do Projeto:
+Durante o desenvolvimento do projeto de Controle Interativo de Lâmpada, enfrentamos alguns desafios notáveis:
 
-O objetivo deste projeto é demonstrar como criar uma página da web interativa que responde a eventos de clique do usuário. Ele simula o controle de uma lâmpada, fornecendo feedback visual e funcionalidade de quebra da lâmpada após um número predefinido de cliques. É uma demonstração simples de interação JavaScript em uma página da web.
+1. Contagem de Cliques e Quebra da Lâmpada:Implementar a funcionalidade de quebrar a lâmpada após um número específico de cliques foi um desafio que envolveu a contagem cuidadosa dos cliques e a mudança de estado da lâmpada quando esse limite foi alcançado. Além disso, foi necessário gerenciar a exibição da lâmpada quebrada e do botão de reinício de forma apropriada.
+2. Estilo e Layout Responsivo: Garantir que a aplicação fosse visualmente atraente e funcionasse bem em dispositivos de diferentes tamanhos foi um desafio adicional. Foi necessário usar CSS para definir o estilo dos elementos.
 
-Observações Finais:
+Conclusão:
 
-Este projeto é adequado para fins de aprendizado e pode ser aprimorado adicionando mais recursos, como animações, sons ou opções de personalização.
+O projeto de Controle Interativo de Lâmpada é uma aplicação web simples, mas interativa, que demonstra como criar funcionalidades interativas e lidar com eventos em uma página web. Ele também destaca a importância do gerenciamento de estados e da manipulação do DOM (Document Object Model) em projetos web.
+Durante o desenvolvimento, aprendemos a lidar com desafios de lógica, estilo e integração de recursos externos, aprimorando nossas habilidades de programação web.
+O código-fonte apresentado é uma demonstração básica, e é possível expandir este projeto adicionando mais recursos e melhorias, como animações e efeitos visuais adicionais.
