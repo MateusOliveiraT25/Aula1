@@ -1,0 +1,21 @@
+Controle Interativo de Lâmpada:
+
+Nesta parte, o objetivo é criar uma interface em HTML com uma imagem de uma lâmpada e dois botões: um para ligar/desligar a lâmpada e outro para reiniciar o estado inicial.
+O código JavaScript controla a funcionalidade dos botões e a lógica da lâmpada. Ele faz o seguinte:
+Monitora o número de cliques no botão de alternância.
+Se o limite de cliques for atingido (7 no caso), a lâmpada é quebrada, a imagem é trocada e os elementos da página são ajustados para refletir a lâmpada quebrada.
+Se a lâmpada não estiver quebrada, cada clique no botão de alternância liga ou desliga a lâmpada.
+Há um botão "Reiniciar" que permite ao usuário reverter o estado da lâmpada para o inicial.
+Cronômetro:
+
+Esta parte cria um cronômetro simples com horas, minutos, segundos e milissegundos exibidos na página.
+O JavaScript controla o funcionamento do cronômetro. Ele possui funções para iniciar, parar e resetar o cronômetro. As funções são chamadas por meio de botões na página.
+O cronômetro é atualizado a cada 10 milissegundos para exibir o tempo decorrido com precisão.
+As horas, minutos, segundos e milissegundos são exibidos em elementos HTML separados, e seus valores são atualizados conforme o cronômetro avança.
+Jogo da Velha:
+
+Nesta parte, é implementado o clássico jogo da velha em uma página HTML.
+O JavaScript controla a lógica do jogo, incluindo a alternância entre os jogadores (X e O), a detecção de vitórias ou empates e a atualização do placar.
+Quando um jogador faz uma jogada, a função newMove é chamada para atualizar o tabuleiro e verificar se há um vencedor ou empate.
+Se houver um vencedor ou empate, uma mensagem é exibida na página.
+O placar é mantido para ambos os jogadores (X e O), e é atualizado conforme o jogo avança.
